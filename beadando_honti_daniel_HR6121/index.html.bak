@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jQuery.js"> </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, int">
+    <title>Birodalom</title>
+    <link rel="stylesheet" href="css.CSS">
+    <script src="script.js"></script>
+
+    <style>
+        body{
+            background-color:darkgray;
+        }
+    </style>
+
+    <script> 
+    $(document).ready(function(){
+      $("#kerdes").click(function(){
+        $("#titok").slideToggle();
+      });
+    });
+    </script>
+
+    <style> 
+    #titok, #kerdes {
+      text-align: center;
+    }
+    #titok {
+      display: none;
+    }
+    </style>
+
+    
+
+</head>
+<body>
+
+   
+    <table class="cimke">
+        <tr>
+            <td>
+                <img src="Imperial_Emblem.png" width="50" height="50">
+            </td>
+            <td>
+                <span class="cim">Galaktikus Birodalom</span>
+            </td>
+            <td>
+                <img src="Imperial_Emblem.png" width="50" height="50">
+            </td>
+        </tr>
+    </table>
+
+    <img id="fly" src="fly.png" width ="100" height="100"><br>
+    <button class="button" id="gomb2">Repítsd el a tie vadászt</button>
+    
+
+    <table>
+        <tr>
+            <td>
+                A Birodalmi hadsereg fegyverzete:
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <img src="E-11.png" width="250" height="122">     
+            </td>
+            <td> 
+                <p>Az E-11 blaster puska egy könnyű, de erős blaster puska volt, amelyet a BlasTech Industries gyártott. A birodalmi rohamosztagosok alapfelszerelésként használták. A robbanópuska a BlasTech E-10-es robbanópuskájának utódja volt, és a klónháborúk idején a klóncsapatok által használt DC-15A robbanókarabinon alapult.</p>
+                <p><a href="https://starwars.fandom.com/wiki/E-11_blaster_rifle">E-11</a></p>
+            </td>
+            <td> 
+                <img src="EC-17.png" width="250" height="155">
+            </td>
+            <td> 
+                <p>The EC-17 hold-out blaster,[2] also known as the scout pistol, flash pistol, or scout trooper blaster,[6] was a standard-issue hold-out blaster pistol for Imperial scout troopers and patrol troopers, manufactured by BlasTech Industries.</p>
+                <p><a href="https://starwars.fandom.com/wiki/EC-17_hold-out_blaster">EC-17</a></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <img src="atat.jpg" width="250" height="250">
+            </td>
+            <td>
+                <p>Az All Terrain Armored Transport (AT-AT) a Galaktikus Köztársaság, a Galaktikus Birodalom és az Első Rend szárazföldi erői által használt terepjáró volt. A birodalmi osztályú csillagrombolóval, a rohamosztagosokkal és a TIE vadászgépekkel együtt a Birodalom katonai erejének egyik leghíresebb szimbóluma volt.</p>
+                <p><a href="https://starwars.fandom.com/wiki/All_Terrain_Armored_Transport">AT-AT</a></p>
+            </td>
+            <td>
+                <img src="atst.jpeg" width="250" height="250">
+            </td>
+            <td>
+                <p>Az AT-ST (All Terrain Scout Transport), más néven Scout Transport, Scout Walker, vagy gúnyosan csirkejáró, egy könnyű, két lábon járó járókeret volt, amelyet a Galaktikus Birodalom szárazföldi erői használtak. Később az Első Rend az AT-ST egy frissített változatát használta a hadseregén belül.</p>
+                <p><a href="https://starwars.fandom.com/wiki/All_Terrain_Scout_Transport">AT-ST</a></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <img src="tie.jpg" width="250" height="188">
+            </td>
+            <td>
+                <p>A TIE-vonal vagy TIE-sorozat a Sienar Fleet Systems, majd később a Sienar-Jaemus Fleet Systems által gyártott csillagvadászok sorozata volt, amelyeket ikerion-hajtóműveik és napkollektorpaneljeik különböztettek meg. Több tucat különböző modell létezett.</p>
+                <ul>
+                    <li>Tie fighter</li>
+                    <li>Tie bomber</li>
+                    <li>Tie interceptor</li>
+                  </ul>  
+                  <p><a href="https://starwars.fandom.com/wiki/TIE_line">Tie</a></p>
+                </td>
+            <td>
+                <img src="rombolo.png" width="250" height="161">
+            </td>
+            <td>
+                <p>A csillagromboló egy tőr alakú fővezérhajó típus volt, amelyet a Galaktikus Köztársaság, a Galaktikus Birodalom, az Első Rend és a Sith Örökkévaló használt. A csillagrombolók nevezetes példái közé tartozik a Birodalmi-osztályú csillagromboló és elődje, a Venator-osztályú csillagromboló.</p>
+                <p><a href="https://starwars.fandom.com/wiki/Star_Destroyer">Destroyer</a></p>
+            </td>
+        </tr>
+
+    </table>
+
+    <div>
+
+        <p id="szoveg" class="palp">A galaxis békéjének és biztonságának megszilárdítása érdekében uniónkat új alapokra helyezzük. Neve mától Első Galaktikus Birodalom! A rend és a biztonság birodalma!</p>
+
+        <p id="szoveg2">Palpatine: Olyan nagy lett végül a hatalma, hogy már csak attól kellett félnie, hogy elveszti e hatalmat, ami végül persze megtörtént. Az lett a veszte, hogy minden tudását átadta tanítványának. A tantványa pedig meggyilkolta őt álmában. Bizarr sors. Mindenkit meg tudott menteni. Éppen csak önmagát nem…” </p>
+    </div>
+
+    <div class="empire">
+        A Birodalom abszolút uralkodója <span style="background-color: rgb(145, 135, 238);">Palpatine</span> császár volt, aki Darth Vader segítségével uralkodott. A Köztársaságtól örökölt törvényhozó-kormányzó államszervezet, a Galaktikus Szenátus évekkel a Birodalom megalakulása után is létezett, de nem volt semmi hatalma és végül Palpatine fel is oszlatta. Az uralkodó után az igazi hatalmat az űrszektorok – többnyire katonai – kormányzói, a moffok gyakorolták.
+    </div>
+
+    <div class="empire">
+        Nagy hatalom koncentrálódott a moffok kezében, éles ellentétben a Régi Köztársaság bürokratikus struktúrájával, ahol még a legkisebb incidenst is a Szenátus elé lehetett vinni. Ezt a hatalmat terrorral biztosították. A terror egyik eszköze a Birodalmi hadsereg volt, amelyhez tartoztak a birodalmi rohamosztagok is és nagyszámú hadi járművek, mint a csillagrombolók és az AT-AT járművek.
+    </div>
+
+    <div class="empire">
+        Ugyanakkor a moffok teljes mértékben függtek az Uralkodótól, aki bármikor kivégeztethette őket, ha inkompetensnek, a rendszert veszélyeztetően mohónak, árulónak, vagy bármi egyéb okból megbízhatatlannak bizonyultak a Birodalom számára.
+    </div>
+
+
+
+   
+
+    <div>Nyomd meg a gombot hogy meglásd a birodalom legfőbb vezetőit</div>
+
+    <button id="gomb" class="button2">Katt</button> <br> <br>
+
+    
+    <div id="div1" style="display: none;">
+        <table id="table1">
+            <tr>
+                <td><img src="Palpatine.jpg" width ="180" height="225"></td>
+                <td><p class="vezet">Darth Sidious, született Sheev Palpatine, akit egyszerűen csak Császárként is ismertek, a Sith-ek sötét ura és a Galaktikus Birodalom császára volt, aki 19 BBY-tól 4 ABY-ig uralkodott. A köztársasági szenátusban a Naboo szenátoraként hatalomra jutó, titokzatos Sith nagyúr két identitást ápolt, Sidiousét és Palpatine-ét, mindkettőt felhasználva politikai karrierje előmozdítására. A klónháborúk során megszervezte a Galaktikus Köztársaság és a Jedi Rend bukását, majd megalapította uralmát a galaxis felett, amely az endori csatában bekövetkezett haláláig tartott. Az Erő sötét oldala azonban olyan hatalmakkal ruházta fel, amelyek lehetővé tették a Császár számára, hogy visszatérjen a sírból.</p></td>
+            </tr>
+   
+            <tr>
+                <td><img src="Vader.jpg" width ="320" height="180"></td>
+                <td><div class="vezet">Anakin Skywalker egy emberi fajhoz tartozó, Erő-érzékeny férfi volt, aki először Jedi lovagként szolgálta a Galaktikus Köztársaságot, később Darth Vader néven, Sith nagyúrként a Galaktikus Birodalmat. Darth Sidious tanítványaként, és annak leghűségesebb harcosaként a Birodalom könyörtelen ökle. Az új kormányzat alatt kiképezte az Inkvizítorokat, hogy levadászhassák a még életben maradt Jediket, és összegyűjtsék az Erő-érzékeny gyermekeket.</div></td>
+            </tr>
+    
+            <tr>
+                <td><img src="Tarkin.jpg" width ="192" height="256"></td>
+                <td><p class="vezet">Wilhuff Tarkin emberi férfi politikus, bürokrata és katonatiszt volt, akinek karrierje a Köztársaság bukását és a Birodalom korát is átfogta. Az Eriadu bolygón született 64 BBY-ban, a Tarkin család tagja és Jova Tarkin dédunokaöccse volt. A Köztársaság korszakában Tarkin egy ideig a Galaktikus Köztársaság Igazságügyi Minisztériumában szolgált, mielőtt visszatért szülőbolygójára, az Eriadu kormányzójaként. A klónháborúk kezdetén megújította katonai szolgálatát, és a Köztársasági Haditengerészet tisztje lett.</p></td>
+            </tr>
+   
+            <tr>
+                <td><img src="Thrawn.jpg" width ="256" height="196"></td>
+                <td><div class="vezet">Mitth'raw'nuruodo, született Kivu'raw'nuru , korai katonai pályafutása során Mitth'raw'nuru néven ismert, és alapnevén Thrawn néven ismertebb, a Chiss Aszcendens férfi tisztje és a Birodalmi Haditengerészet nagyadmirálisa volt a Galaktikus Birodalom korában. A feltűnő kék bőrű, vörös szemű és szögletes arcú idegen birodalmi tiszt Thrawn briliáns és kegyetlen stratégaként volt ismert.</div></td>
+            </tr>
+    </table>
+    </div>
+
+    <div>Sorrolj fel annyi darab klónt amennyit csak tudsz</div>
+    <div style="margin-left: 40px;">
+        <ul id="listAdd">
+            <li>Rex</li>
+        </ul>
+
+        <div><input id="txtListAdd"/><button class="button3" id="btnListAdd" onclick="listArray()">Hozzáad</button></div>
+    </div>
+
+
+
+    <form id="user-form">
+		<fieldset>
+            <div class="message">
+            </div>
+			<legend>Alap adatok:</legend>
+
+            <table class="adat">
+			<tr>
+    			<td><label for="vezeteknev"> Vezetéknév: </label></td>
+	    		<td><input type="text" id="vezeteknev" required></td>
+			</tr>
+
+            <tr>
+		    	<td><label for="keresztnev"> Keresztnév:  </label></td>
+			    <td><input type="text" name="keresztnev" id="keresztnev" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="szuletesi_datum"> Születési dátum: </label></td>
+		    	<td><input type="date" name="szuletesi_datum" id="szuletesi_datum" max="2004-01-01" min="1980-01-01"></td>
+            </tr>
+
+            <tr>
+                <td><label for="magassag">Magassága</label></td>
+                <td><input type="number" name="magassag" id="magassag" min="0" max="300" ></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <select id="nem" name="nem" >
+                        <option value="ember"> Ember </option>
+                        <option value="zabrak"> Zabrak </option>
+                        <option value="gungan" > Gungan </option> 
+                        <option value="wookie"> Wookie </option>
+                        <option value="tvilek"> Twi'lek</option>
+                        <option value="jawa"> Jawa</option>
+                        <option value="ewok"> Ewok</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="email">A jovobeli cimed (Email):</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="azonosito">A jovobeli kulcsod (Jelszo): </label></td>
+                <td><input type="password" name="azonosito" id="azonosito"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div>
+                        Válasza ki hogy milyen egységbe szeretne kerülni:
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="rohamosztagos">Rohamosztagos</label></td>
+                <td><input name="kedvenc" type="radio" id="rohamosztagos" value="rohamosztagos"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="pilota">Pilóta</label></td>
+                <td><input name="kedvenc" type="radio" id="pilota" value="pilota"></td>
+            </tr>
+
+            <tr>
+                <td><label for="matroz">Matróz</label></td>
+                <td><input name="kedvenc" type="radio" id="matroz" value="matroz"></td>
+            </tr>
+
+            
+            <tr>
+                <td><label for="file">Önéletrajz:</label></td>
+                <td><input type="file" name="file" id="file"></td>
+            </tr>
+
+            <tr>
+                <td><label for="ertekeles">Értékelje a Birodalom iránti hűségét</label></td>
+                <td><input type="range" name="ertekeles" id="ertekeles" min="1" max="10" ></td>
+            </tr>
+
+            <tr>
+                <td><label for="esku">Válalja a kockázatokat?</label></td>
+                <td><input type="checkbox" id="esku" name="esku" value="Igen" checked></td>
+            </tr>
+
+            <tr>
+                <td>
+                  <button type="button" id="gomb5">Elkuld </button><br>
+                </td>
+            </tr>
+
+            </table>
+
+    </form>
+
+    <div id="kerdes">Tudni akarod Palpatine titkát?</div>
+    <div id="titok">Ő Darth Sidious</div>
+
+</body>
+
+</html>

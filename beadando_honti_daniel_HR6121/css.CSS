@@ -1,0 +1,125 @@
+.cim {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cimke {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    background-color: rgb(139, 226, 238);
+    width: 150px;
+    height: 70px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    transition: ease-in-out 0.3s;
+    font-size: 20px;
+    box-shadow: inset 0 0 0 0 rgb(102, 255, 0);
+}
+
+.button:hover{
+    box-shadow: inset 300px 0 0 0 rgb(102, 255, 0);
+    cursor: pointer;
+    color: white;
+}
+
+.button2 {
+    background-color: rgb(139, 226, 238);
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    transition: ease-in-out 0.3s;
+    font-size: 20px;
+    box-shadow: inset 0 0 0 0 rgb(102, 255, 0);
+}
+
+.button2:hover{
+    box-shadow: inset 300px 0 0 0 rgb(102, 255, 0);
+    cursor: pointer;
+    color: white;
+}
+
+.button3 {
+    background-color: rgb(139, 226, 238);
+    width: 50px;
+    height: 20px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    transition: ease-in-out 0.3s;
+    font-size: 10px;
+    box-shadow: inset 0 0 0 0 rgb(102, 255, 0);
+}
+
+.button3:hover{
+    box-shadow: inset 300px 0 0 0 rgb(102, 255, 0);
+    cursor: pointer;
+    color: white;
+}
+
+body  p {  color: rgb(15, 15, 153); } 
+
+#szoveg::first-letter{
+	font-size: xxx-large;
+	font-family: Vivaldi;
+}
+
+#szoveg2::first-line{
+	color:rgb(255, 0, 0);
+}
+
+
+p.palp:hover{ 
+    font-size: large;
+}
+
+.empire{
+    background-color:lightslategrey;
+    font-size: 18px;
+}
+
+.adat{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.vezet{
+    font-style: italic;
+}
+
+.error {
+    background-color: red;
+    color: blue;
+    padding: 5px;
+    margin: 5px;
+}
+
+input[type="text"]{
+    background-color: brown;
+}
+
+div > p{
+    font-family: verdana;
+}
+
+li,ol{
+    color: red;
+}
+
+a:visited{
+    color:goldenrod;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color:darkviolet;
+    background-color: transparent;
+    text-decoration: underline;
+}
